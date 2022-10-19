@@ -36,6 +36,10 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./readme-assets/05-third-party-apis-homework-demo.gif)
 
+# Link to Deployed Site
+```md
+https://lightinthebulb.github.io/work-day-scheduler/
+```
 
 ## Grading Requirements
 
