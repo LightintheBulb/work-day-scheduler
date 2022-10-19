@@ -10,10 +10,6 @@ $(document).ready(function () {
         // save in localStorage
         localStorage.setItem(time, value)
         
-        // Show notification that item was saved to localStorage by adding class 'show'
-
-        // Timeout to remove 'show' class after 5 seconds
-        
         setTimeout(function () {
             $('.notification').removeClass('d-none');
         }, 250);
@@ -50,10 +46,6 @@ $(document).ready(function () {
         }
 
         var timeBlock = $('.time-block').each(eachFunction)
-
-        // loop over time blocks ---> https://api.jquery.com/each/
-        // inside this loop, // check if we've moved past this time. If we have, make the row grey. If it's future, make it green. if it's past, make it red. Using the past, present, and future classes in css file
-
         
     }
 
